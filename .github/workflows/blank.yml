@@ -15,5 +15,3 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-    - name: GitHub Action for Slack
-      uses: Ilshidur/action-slack@1.6.2
