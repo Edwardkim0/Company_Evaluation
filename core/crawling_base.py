@@ -12,7 +12,7 @@ from urllib.request import urlopen
 from collections import defaultdict
 
 class CrawlingBase(object):
-    def __init__(self,url="https://biz.chosun.com",json_save_dir='crawling_data'):
+    def __init__(self,url="https://biz.chosun.com",json_save_dir='crawling_data',name=None):
         self.df = pd.read_html('http://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13', header=0)[0]
         self.company_object = self.df['회사명']
         self.company_list = list(self.company_object)
@@ -21,6 +21,7 @@ class CrawlingBase(object):
         self.html = urlopen(url)
         self.bsObject = BeautifulSoup(self.html, "html.parser")
         self.save_dir=json_save_dir
+        self.name = name
 
     def preprocess_word(self,x):
         m = x.replace('%', 'per')
@@ -29,7 +30,7 @@ class CrawlingBase(object):
         m = " ".join(m.split())
         return m
 
-    def get_string_from_chosun(self):
+    def get_string_from(self):
         text_list = []
         for i, meta in enumerate(self.bsObject.find_all("a")):
             text_list.append(meta.get_text())
@@ -51,7 +52,8 @@ class CrawlingBase(object):
 
     def save_json_newsdata(self):
         save_time = time.strftime('%Y-%m-%d', time.localtime(time.time()))
-        crawl_name = self.url.split("//")[-1].strip('/')
+        if self.name != None:
+            crawl_name = f"{self.name}_" + self.url.split("/")[2]
         file_name = f"{save_time}_{crawl_name}.json"
         if not os.path.exists(self.save_dir):
             os.makedirs(self.save_dir)
@@ -61,8 +63,8 @@ class CrawlingBase(object):
             json.dump(self.company_dict, json_file)
 
     def start_crawling(self):
-        chosun_news = self.get_string_from_chosun()
-        self.add_company_info_from(chosun_news)
+        news = self.get_string_from()
+        self.add_company_info_from(news )
         pprint.pprint(self.company_dict)
         self.save_json_newsdata()
 

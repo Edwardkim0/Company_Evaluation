@@ -3,8 +3,12 @@
     "url": "https://biz.chosun.com",
     "json_save_dir" : "crawling_data"
   },
-  "naver": {
-    "url": "https://biz.chosun.com",
+  "naver_finance": {
+    "url": "https://news.naver.com/main/list.nhn?mode=LS2D&mid=shm&sid1=101&sid2=259",
+    "json_save_dir" : "crawling_data"
+  },
+  "naver_business": {
+    "url": "https://news.naver.com/main/list.nhn?mode=LS2D&mid=shm&sid1=101&sid2=261",
     "json_save_dir" : "crawling_data"
   }
 }
