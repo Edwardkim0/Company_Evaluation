@@ -1,13 +1,14 @@
-import requests
-from bs4 import BeautifulSoup
-from urllib.request import urlopen
+from core.crawling_base import CrawlingBase
+from util.config import process_config
+import os
 
-html = urlopen("https://www.amazon.com/books-used-books-textbooks/b?ie=UTF8&node=283155")
-# html = urlopen("https://biz.chosun.com/")
-bsObject = BeautifulSoup(html, "html.parser")
-print(bsObject.prettify())
-for meta in bsObject.head.find_all('meta',{"name":"description"}):
-    print(meta.get('content'))
+def crwal(url="https://biz.chosun.com",json_save_dir='crawling_data'):
+    chosun_crwaler = CrawlingBase(url,json_save_dir)
+    chosun_crwaler.start_crawling()
 
-for object in bsObject:
-    print(object.keys)
+if __name__ == '__main__':
+    config_path =  os.path.join("config","crawling_v0.1.json")
+    config = process_config(config_path)
+    for k in config:
+        url = config[k]['url']
+        crwal(url)

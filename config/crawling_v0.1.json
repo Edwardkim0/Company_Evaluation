@@ -1,0 +1,10 @@
+{
+  "chosun": {
+    "url": "https://biz.chosun.com",
+    "json_save_dir" : "crawling_data"
+  },
+  "naver": {
+    "url": "https://biz.chosun.com",
+    "json_save_dir" : "crawling_data"
+  }
+}
