@@ -18,12 +18,17 @@ class CrawlingBase(object):
         self.df = pd.read_html('http://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13', header=0)[0]
         self.company_object = self.df['회사명']
         self.company_list = list(self.company_object)
+        self.company_list_edit()
         self.company_dict = defaultdict(list)
         self.url = url
         self.html = urlopen(url)
         self.bsObject = BeautifulSoup(self.html, "html.parser")
         self.save_dir=json_save_dir
         self.name = name
+
+    def company_list_edit(self):
+        added_list = ["삼성","현대","SK","두산그룹","삼성그룹","현대그룹","LG가전","LGD","SDC","SDS","현대차","기아차","삼성차","현대자동차그룹"]
+        self.company_list += added_list
 
     def preprocess_word(self,x):
         m = x.replace('%', 'per')
@@ -35,6 +40,8 @@ class CrawlingBase(object):
     def get_string_from(self):
         text_list = []
         for i, meta in enumerate(self.bsObject.find_all("a")):
+            text_list.append(meta.get_text())
+        for i, meta in enumerate(self.bsObject.find_all("p")):
             text_list.append(meta.get_text())
         return text_list
 
@@ -62,9 +69,22 @@ class CrawlingBase(object):
         self.save_path = os.path.join(self.save_dir, file_name)
         print(f"save_json_path : {self.save_path}")
         with open(self.save_path, "w",encoding='utf-8') as json_file:
-            json.dump(self.company_dict, json_file,ensure_ascii=False)
+            json.dump(self.company_dict, json_file,indent=4,ensure_ascii=False)
         if check_save:
             print_from_json(self.save_path)
+
+    def post_process(self):
+        company_keys = list(self.company_dict.keys())
+        for company in company_keys:
+            # list내 중복된 요소 제거
+            self.company_dict[company] = list(set(self.company_dict[company]))
+            # "한국경제" : ["한국경제"] 이런 요소들 제거
+            self.company_dict[company] = [x for x in self.company_dict[company] if x!=company]
+            # 비었으면 dict에서 제거
+            if not self.company_dict[company]:
+                del self.company_dict[company]
+            elif company=="NAVER" and self.company_dict[company]==["NAVER Corp"]:
+                del self.company_dict[company]
 
 
 
@@ -72,5 +92,6 @@ class CrawlingBase(object):
         news = self.get_string_from()
         self.add_company_info_from(news )
         pprint.pprint(self.company_dict)
+        self.post_process()
         self.save_json_newsdata(check_save=check_save)
 
