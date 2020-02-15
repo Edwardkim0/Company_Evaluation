@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bae2f51-9cff-4f41-b11d-b454f9578e40" name="Default Changelist" comment="" />
+    <list default="true" id="0bae2f51-9cff-4f41-b11d-b454f9578e40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/crawling_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/crawling_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawling_data/2020-02-12_biz.chosun.com.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawling_data/2020-02-13_biz.chosun.com.json" beforeDir="false" afterPath="$PROJECT_DIR$/crawling_data/2020-02-13_biz.chosun.com.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawling_data/2020-02-14_chosun_biz.chosun.com.json" beforeDir="false" afterPath="$PROJECT_DIR$/crawling_data/2020-02-14_chosun_biz.chosun.com.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawling_data/2020-02-14_naver_business_news.naver.com.json" beforeDir="false" afterPath="$PROJECT_DIR$/crawling_data/2020-02-14_naver_business_news.naver.com.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawling_data/2020-02-14_naver_finance_news.naver.com.json" beforeDir="false" afterPath="$PROJECT_DIR$/crawling_data/2020-02-14_naver_finance_news.naver.com.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crolling.py" beforeDir="false" afterPath="$PROJECT_DIR$/crolling.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,64 +18,78 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crolling.py">
+        <entry file="file://$PROJECT_DIR$/util/handling_json.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="361">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/config.py">
+        <entry file="file://$PROJECT_DIR$/crawling_data/.ipynb_checkpoints/2020-02-12_biz.chosun.com-checkpoint.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="82" selection-end-column="2897" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/crawling_v0.1.json">
+        <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-12_biz.chosun.com.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="85" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="85" />
+            <state>
+              <caret column="238" lean-forward="true" selection-start-column="238" selection-end-column="238" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/crawling_base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-14_chosun_biz.chosun.com.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
+        <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-14_naver_business_news.naver.com.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="311" selection-start-line="311" selection-end-line="311" />
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-13_biz.chosun.com.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1102" selection-start-column="1102" selection-end-column="1102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_chosun_biz.chosun.com.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_naver_business_news.naver.com.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_naver_finance_news.naver.com.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-14_naver_finance_news.naver.com.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -81,6 +104,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>get_string_from</find>
+      <find>print_from_json</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,7 +116,10 @@
         <option value="$PROJECT_DIR$/util/config.py" />
         <option value="$PROJECT_DIR$/config/crawling_v0.1.json" />
         <option value="$PROJECT_DIR$/crolling.py" />
+        <option value="$PROJECT_DIR$/util/json.py" />
         <option value="$PROJECT_DIR$/core/crawling_base.py" />
+        <option value="$PROJECT_DIR$/crawling_data/2020-02-13_biz.chosun.com.json" />
+        <option value="$PROJECT_DIR$/util/handling_json.py" />
       </list>
     </option>
   </component>
@@ -123,7 +150,23 @@
             <path>
               <item name="ai portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="ai portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ai portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ai portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="crawling_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ai portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ai portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="crawling_data" type="462c0819:PsiDirectoryNode" />
+              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ai portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ai portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,7 +179,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\project\code\ai_company_evaluatuion\ai portfolio\crawling_data" />
+      <recent name="C:\project\code\ai_company_evaluatuion\ai portfolio\crawling_data\edit" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\code\ai_company_evaluatuion\ai portfolio\crawling_data\edit" />
+      <recent name="C:\project\code\ai_company_evaluatuion\ai portfolio\crawling_data\.ipynb_checkpoints" />
       <recent name="C:\project\code\ai_company_evaluatuion\ai portfolio\config" />
     </key>
   </component>
@@ -152,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.crolling">
+  <component name="RunManager" selected="Python.json">
     <configuration name="crawling_base" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ai portfolio" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,8 +244,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="json" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ai portfolio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\project\code\ai_company_evaluatuion\ai portfolio\util\handling_json.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.json" />
         <item itemvalue="Python.crolling" />
         <item itemvalue="Python.crawling_base" />
       </list>
@@ -218,32 +289,70 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2208" height="1208" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25230202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32992566" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33643124" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.56784385" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39962825" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32899627" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25230202" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.56784385" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39962825" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899627" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/core/crawling_base.py</url>
-          <line>55</line>
+          <line>57</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util/handling_json.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util/handling_json.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util/handling_json.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util/handling_json.py</url>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -284,26 +393,9 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-13_biz.chosun.com.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-12_biz.chosun.com.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="190">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -320,25 +412,126 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crolling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="190">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="292" selection-start-line="292" selection-end-line="292" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/.ipynb_checkpoints/2020-02-13_biz.chosun.com-checkpoint.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-12_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/.ipynb_checkpoints/2020-02-12_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-13_biz.chosun.com._new.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/crawling_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="270">
+          <caret line="63" selection-start-line="63" selection-end-line="64" selection-end-column="70" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/.ipynb_checkpoints/2020-02-13_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="3997" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/.ipynb_checkpoints/2020-02-12_biz.chosun.com-checkpoint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="82" selection-end-column="2897" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/handling_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-12_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="238" lean-forward="true" selection-start-column="238" selection-end-column="238" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-13_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1102" selection-start-column="1102" selection-end-column="1102" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-14_chosun_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-14_naver_business_news.naver.com.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-14_naver_finance_news.naver.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_chosun_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_naver_business_news.naver.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_naver_finance_news.naver.com.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>

@@ -10,6 +10,8 @@ import json
 import time
 from urllib.request import urlopen
 from collections import defaultdict
+from util.handling_json import print_from_json
+
 
 class CrawlingBase(object):
     def __init__(self,url="https://biz.chosun.com",json_save_dir='crawling_data',name=None):
@@ -50,21 +52,25 @@ class CrawlingBase(object):
                 if word in self.company_list:
                     self.company_dict[word].append(" ".join(processed_words))
 
-    def save_json_newsdata(self):
+    def save_json_newsdata(self,check_save):
         save_time = time.strftime('%Y-%m-%d', time.localtime(time.time()))
         if self.name != None:
             crawl_name = f"{self.name}_" + self.url.split("/")[2]
         file_name = f"{save_time}_{crawl_name}.json"
         if not os.path.exists(self.save_dir):
             os.makedirs(self.save_dir)
-        save_path = os.path.join(self.save_dir, file_name)
-        print(f"save_json_path : {save_path}")
-        with open(save_path, "w") as json_file:
-            json.dump(self.company_dict, json_file)
+        self.save_path = os.path.join(self.save_dir, file_name)
+        print(f"save_json_path : {self.save_path}")
+        with open(self.save_path, "w",encoding='utf-8') as json_file:
+            json.dump(self.company_dict, json_file,ensure_ascii=False)
+        if check_save:
+            print_from_json(self.save_path)
 
-    def start_crawling(self):
+
+
+    def start_crawling(self,check_save=False):
         news = self.get_string_from()
         self.add_company_info_from(news )
         pprint.pprint(self.company_dict)
-        self.save_json_newsdata()
+        self.save_json_newsdata(check_save=check_save)
 
