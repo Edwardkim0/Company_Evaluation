@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bae2f51-9cff-4f41-b11d-b454f9578e40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/crawling_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/crawling_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawling_data/2020-02-15_chosun_biz.chosun.com.json" beforeDir="false" afterPath="$PROJECT_DIR$/crawling_data/2020-02-15_chosun_biz.chosun.com.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawling_data/2020-02-15_naver_business_news.naver.com.json" beforeDir="false" afterPath="$PROJECT_DIR$/crawling_data/2020-02-15_naver_business_news.naver.com.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawling_data/2020-02-15_naver_finance_news.naver.com.json" beforeDir="false" afterPath="$PROJECT_DIR$/crawling_data/2020-02-15_naver_finance_news.naver.com.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crolling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/crolling.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crolling.py" beforeDir="false" afterPath="$PROJECT_DIR$/crolling.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,88 +15,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crolling.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-14_chosun_biz.chosun.com.json">
+        <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-46_company_11_biz.chosun.com.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/crawling_v0.1.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="11" selection-end-column="37" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-45_company_10_biz.chosun.com.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/crawling_v0.11.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-44_company_9_biz.chosun.com.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/crawling_base.py">
+        <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-44_company_8_biz.chosun.com.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="85" column="80" selection-start-line="85" selection-start-column="80" selection-end-line="85" selection-end-column="80" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_hk_finance_www.hankyung.com.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="80" lean-forward="true" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
-            </state>
+            <state relative-caret-position="-601" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_hk_industry_www.hankyung.com.json">
+        <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-51_company_22_biz.chosun.com.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-684" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-33_company_0_biz.chosun.com.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_chosun_biz.chosun.com.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114" />
-          </provider>
+        <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-35_company_1_biz.chosun.com.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_naver_business_news.naver.com.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-37_company_2_biz.chosun.com.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_naver_finance_news.naver.com.json">
+        <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-41_company_4_biz.chosun.com.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-42_company_5_biz.chosun.com.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-            </state>
+            <state relative-caret-position="-582" />
           </provider>
         </entry>
       </file>
@@ -117,6 +84,10 @@
       <find>get_string_from</find>
       <find>print_from_json</find>
       <find>post_process</find>
+      <find>set_savename</find>
+      <find>name</find>
+      <find>crawl_name</find>
+      <find>save_dir</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,6 +102,9 @@
         <option value="$PROJECT_DIR$/util/handling_json.py" />
         <option value="$PROJECT_DIR$/config/crawling_v0.1.json" />
         <option value="$PROJECT_DIR$/config/crawling_v0.11.json" />
+        <option value="$PROJECT_DIR$/crawling_data/2020-02-22_chosun_biz.chosun.com.json" />
+        <option value="$PROJECT_DIR$/crawling_data/2020-02-22_hk_industry_www.hankyung.com.json" />
+        <option value="$PROJECT_DIR$/core/crawling_expand.py" />
         <option value="$PROJECT_DIR$/core/crawling_base.py" />
         <option value="$PROJECT_DIR$/crolling.py" />
       </list>
@@ -147,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,7 +147,7 @@
               <item name="ai portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="ai portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="crawling_data" type="462c0819:PsiDirectoryNode" />
-              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
+              <item name="biz_chosun" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ai portfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -185,6 +158,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,14 +166,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\project\code\ai_company_evaluatuion\ai portfolio\crawling_data" />
-      <recent name="C:\project\code\ai_company_evaluatuion\ai portfolio\crawling_data\edit" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\code\ai_company_evaluatuion\ai portfolio\core" />
       <recent name="C:\project\code\ai_company_evaluatuion\ai portfolio\config" />
       <recent name="C:\project\code\ai_company_evaluatuion\ai portfolio\crawling_data\edit" />
       <recent name="C:\project\code\ai_company_evaluatuion\ai portfolio\crawling_data\.ipynb_checkpoints" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\project\code\ai_company_evaluatuion\ai portfolio\crawling_data" />
+      <recent name="C:\project\code\ai_company_evaluatuion\ai portfolio\crawling_data\edit" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,7 +288,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32899627" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32806692" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -344,23 +319,35 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/crawling_base.py</url>
-          <line>77</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/crolling.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="self.url.split(&quot;//&quot;)" language="Python" />
-        <watch expression="&quot;https://news.naver.com/main/list.nhn?mode=LS2D&amp;mid=shm&amp;sid1=101&amp;sid2=259&quot;.split(&quot;//&quot;)" language="Python" />
-        <watch expression="[x for x in self.company_list if &quot;삼성&quot; in x]" language="Python" />
-        <watch expression="meta.get_text()" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>html</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f&quot;company_{i}&quot;</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.driver.get(&quot;&quot;&quot;'//*[@id=&quot;header&quot;]/div[3]/div[2]/div[1]/ul[1]/li[1]/a'&quot;&quot;&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.driver.get('//*[@id=&quot;header&quot;]/div[3]/div[2]/div[1]/ul[1]/li[1]/a')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>meta.get_text()</expression-string>
         <language-id>Python</language-id>
@@ -391,90 +378,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>[x for x in self.company_list if &quot;현대&quot; in x]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>[x for x in self.company_list if &quot;oil&quot; in x]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>[x for x in self.company_list if &quot;오일&quot; in x]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>&quot;에스오일&quot; in self.company_list</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/util/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="292" selection-start-line="292" selection-end-line="292" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawling_data/.ipynb_checkpoints/2020-02-13_biz.chosun.com-checkpoint.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-12_biz.chosun.com.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawling_data/.ipynb_checkpoints/2020-02-12_biz.chosun.com.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-13_biz.chosun.com._new.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="354" selection-start-line="354" selection-end-line="354" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawling_data/.ipynb_checkpoints/2020-02-13_biz.chosun.com.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="3997" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawling_data/.ipynb_checkpoints/2020-02-12_biz.chosun.com-checkpoint.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -513,16 +419,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_korea_economy_finance_www.hankyung.com.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_korea_economy_industry_www.hankyung.com.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_korea_economy_finance_www.hankyung.com.json" />
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_korea_economy_industry_www.hankyung.com.json" />
     <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-14_naver_finance_news.naver.com.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -532,13 +430,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-14_chosun_biz.chosun.com.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_hk_finance_www.hankyung.com.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="80" lean-forward="true" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/crawling_v0.1.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -554,37 +445,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_hk_finance_www.hankyung.com.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_chosun_biz.chosun.com.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/crawling_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="85" column="80" selection-start-line="85" selection-start-column="80" selection-end-line="85" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crolling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_naver_finance_news.naver.com.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_naver_business_news.naver.com.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -593,8 +462,176 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_naver_finance_news.naver.com.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-15_hk_industry_www.hankyung.com.json">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-22_naver_finance_news.naver.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-22_chosun_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-22_hk_finance_www.hankyung.com.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-569" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-22_hk_industry_www.hankyung.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-22_naver_business_news.naver.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/crawling_expand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1219418287/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="187" column="8" selection-start-line="185" selection-start-column="4" selection-end-line="187" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/2020-02-22-11-18-54__biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-259" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="382" selection-start-line="382" selection-end-line="382" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../venv/crawling/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/crawling_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-35-58_industry_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-38-01_industry_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crolling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-51_company_21_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-51_company_20_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-50_company_19_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-49_company_18_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-49_company_17_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-48_company_16_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-48_company_15_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-47_company_14_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-46_company_13_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-46_company_11_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-45_company_10_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-44_company_9_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-44_company_8_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-601" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-33_company_0_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-35_company_1_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-37_company_2_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-41_company_4_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-42_company_5_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-582" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawling_data/biz_chosun/2020-02-22-11-39-51_company_22_biz.chosun.com.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684" />
+      </provider>
     </entry>
   </component>
 </project>

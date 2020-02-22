@@ -20,15 +20,33 @@ class CrawlingBase(object):
         self.company_list = list(self.company_object)
         self.company_list_edit()
         self.company_dict = defaultdict(list)
+        self.base_url = url
         self.url = url
         self.html = urlopen(url)
         self.bsObject = BeautifulSoup(self.html, "html.parser")
         self.save_dir=json_save_dir
         self.name = name
+        self.set_savename()
+
+    def set_bsojbect(self,html,name):
+        self.html = html
+        self.name = name
+        self.bsObject = BeautifulSoup(self.html, "html.parser")
+        self.set_savename()
+
+    def set_savename(self):
+        save_time = time.strftime('%Y-%m-%d-%H-%M-%S', time.localtime(time.time()))
+        if self.name == None:
+            self.name =""
+        crawl_name = f"{self.name}_" + self.base_url.split("/")[2]
+        self.file_name = f"{save_time}_{crawl_name}.json"
 
     def company_list_edit(self):
-        added_list = ["삼성","현대","SK","두산그룹","삼성그룹","현대그룹","LG가전","LGD","SDC","SDS","현대차","기아차","삼성차","현대자동차그룹"]
+        added_list = ["삼성","현대","SK","두산그룹","삼성그룹","현대그룹","LG가전","LGD","SDC","SDS","현대차",
+                      "기아차","삼성차","현대자동차그룹","대상주식회사","대상(주)","대상그룹","넥스트엔터테인먼트월드","NEW(주)"]
+        del_list = ["대상"]
         self.company_list += added_list
+        [self.company_list.remove(x) for x in del_list]
 
     def preprocess_word(self,x):
         m = x.replace('%', 'per')
@@ -60,13 +78,9 @@ class CrawlingBase(object):
                     self.company_dict[word].append(" ".join(processed_words))
 
     def save_json_newsdata(self,check_save):
-        save_time = time.strftime('%Y-%m-%d', time.localtime(time.time()))
-        if self.name != None:
-            crawl_name = f"{self.name}_" + self.url.split("/")[2]
-        file_name = f"{save_time}_{crawl_name}.json"
         if not os.path.exists(self.save_dir):
             os.makedirs(self.save_dir)
-        self.save_path = os.path.join(self.save_dir, file_name)
+        self.save_path = os.path.join(self.save_dir, self.file_name)
         print(f"save_json_path : {self.save_path}")
         with open(self.save_path, "w",encoding='utf-8') as json_file:
             json.dump(self.company_dict, json_file,indent=4,ensure_ascii=False)
