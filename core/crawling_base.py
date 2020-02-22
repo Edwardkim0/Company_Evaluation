@@ -28,7 +28,7 @@ class CrawlingBase(object):
         self.name = name
         self.set_savename()
 
-    def set_bsojbect(self,html,name):
+    def set_bsojbect(self,html,name=None):
         self.html = html
         self.name = name
         self.bsObject = BeautifulSoup(self.html, "html.parser")
@@ -100,12 +100,10 @@ class CrawlingBase(object):
             elif company=="NAVER" and self.company_dict[company]==["NAVER Corp"]:
                 del self.company_dict[company]
 
-
-
     def start_crawling(self,check_save=False):
         news = self.get_string_from()
         self.add_company_info_from(news )
         pprint.pprint(self.company_dict)
         self.post_process()
-        self.save_json_newsdata(check_save=check_save)
+        # self.save_json_newsdata(check_save=check_save)
 
